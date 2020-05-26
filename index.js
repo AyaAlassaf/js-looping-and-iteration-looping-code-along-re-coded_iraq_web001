@@ -3,12 +3,12 @@ const arr=['Lisa', 'Kaitlin', 'Jan'];
 const birthday=["for the wonderful surprise gift!"];
 function writeCards(arr, surprise){
   for(let i=0;i<arr.length;i++)
-  {
-    console.log("Thank you, arr[i], birthday[i]");
+  {birth
+    console.log("Thank you, arr[i], surprise[i]");
   }
-  return(arr,birthday);
+  return(arr,surprise);
 }
-writeCards(arr,birthday);
+writeCards(arr,surprise);
 
 let countdown=0;
 while(countdown<=10){
