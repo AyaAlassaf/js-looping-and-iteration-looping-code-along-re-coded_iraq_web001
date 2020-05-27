@@ -1,14 +1,13 @@
 // Code your solutions in this file
 const arr=['Lisa', 'Kaitlin', 'Jan'];
-const birthday=["for the wonderful surprise gift!"];
 function writeCards(arr, surprise){
   for(let i=0;i<arr.length;i++)
-  {birth
-    arr[i]=;
+  {
+    arr[i]= `Thank you, ${arr[i]}, for the wonderful ${surprise} gift!`;
   }
-  return(arr,surprise);
+  return arr;
 }
-writeCards(arr,surprise);
+writeCards(arr,"surprise");
 
 function countdown(integer){
 while(integer >=0){
