@@ -11,7 +11,8 @@ writeCards(arr,"surprise");
 
 function countdown(integer){
 while(integer >=0){
- console.log(integer--);
+ console.log(integer);
+ integer--;
 }
 }
 countdown(10);
