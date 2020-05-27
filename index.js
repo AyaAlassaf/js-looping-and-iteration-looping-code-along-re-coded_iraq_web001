@@ -4,13 +4,23 @@ const birthday=["for the wonderful surprise gift!"];
 function writeCards(arr, surprise){
   for(let i=0;i<arr.length;i++)
   {birth
-    console.log("Thank you, arr[i], surprise[i]");
+    arr[i]=;
   }
   return(arr,surprise);
 }
 writeCards(arr,surprise);
 
-let countdown =10;
-while(countdown >=0){
- console.log(countdown--);
+function countdown(integer){
+while(integer >=0){
+ console.log(integer--);
 }
+}
+countdown(10);
+function writeCards(names,eventName){
+for( let i=0;i<=names.length-1;i++){
+
+  names[i] =  `Thank you, ${names[i]}, for the wonderful ${eventName} gift!`;
+}
+return names;
+}
+writeCards(["Lisa","Kaitlin","Jan"],"surprise");
