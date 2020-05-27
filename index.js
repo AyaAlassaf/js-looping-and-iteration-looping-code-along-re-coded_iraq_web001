@@ -11,7 +11,6 @@ function writeCards(arr, surprise){
 writeCards(arr,surprise);
 
 let countdown=10;
-while(countdown<=10){
+while(countdown>=0){
  console.log(countdown--);
 }
-countdown;
