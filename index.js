@@ -9,9 +9,12 @@ function writeCards(arr, surprise){
 }
 writeCards(arr,"surprise");
 
-let countDown =10;
-while(countDown >=0){
- console.log(countDown--);
+function countDown (integer){
+while(integer >=0){
+ console.log(integer--);
 }
+}
+countDown(10);
+
 
 
